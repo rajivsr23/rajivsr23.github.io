@@ -1,0 +1,61 @@
+.content{
+	width:100%;
+	
+}
+
+
+#form{
+	position:relative;
+	background-color:green;
+	height:150px;
+	width:50%;
+	top:40px;
+	margin: 0 auto;
+	
+}
+
+#contactform{
+	position:absolute;
+	height: 35%;
+	width:35%;
+	background-color: green;
+	top:25%;
+	left:40%;
+	box-shadow: 10px 10px 5px #888888;  /*Shadow Effect on the contact form*/
+	
+}
+#contactform_titles{
+	position:relative;
+	width:50%;
+	height:auto;
+	margin: auto;
+	top:5%;
+	
+}
+#closeform{
+	position:absolute;
+	float:right;
+	background-color:#ff3333;
+	color:white;
+	text-align:center;
+	height:10%;
+	width:5%;
+	right:0%;
+	
+}
+
+input:not([type=submit]){
+	width:70%;
+	padding: 6px 20px;
+	border: 1px solid black;
+	margin: 4px 0;
+	border-radius: 4px;
+	
+}
+input[type=submit]{
+	width: 30%;
+	padding: 6px 20px;
+	background-color:#4d94ff;
+	margin: 25px 0;
+	color:white;
+}
